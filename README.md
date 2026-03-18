@@ -21,4 +21,6 @@ Task 4. Factorial <br>
 Write a recursive function that calculates n! (factorial). <br>
 <img width="923" height="403" alt="image" src="https://github.com/user-attachments/assets/56e8a1ae-985a-40ec-9473-f39589b402c7" /> <br>
 <br>
+<p align=center> Part 2. Recursion with Sequences </p>
+<br>
 
