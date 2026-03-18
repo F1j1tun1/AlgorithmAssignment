@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class task {
+public class task2 {
     public static void fillArray(int[] arr, int i, Scanner sc) {
         if (i == arr.length) return;
         arr[i] = sc.nextInt();
