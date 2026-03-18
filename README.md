@@ -30,5 +30,10 @@ Write a recursive function that calculates n! (factorial). <br>
 Write a recursive function to find the n-th Fibonacci number. <br>
 <img width="940" height="481" alt="image" src="https://github.com/user-attachments/assets/c69d8cfe-1014-4cbd-bf4a-9931b9d7927c" />
 
+<b>Task 6. Power Function</b> <br>
+You are given numbers a and n. Write a recursive function that
+returns: a<sup>n</sup> <br>
+<img width="959" height="609" alt="image" src="https://github.com/user-attachments/assets/0d15e106-439f-4610-a6dd-278279e6265c" />
+
 
 
