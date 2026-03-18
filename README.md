@@ -2,6 +2,8 @@
 Group: IT-2502 <br>
 Course: Algorithms and Data Structures</h1>
 
+<h2 align=center> <b>Part 1. Recursion with Numbers</b> </h2>
+
 <b>Task 1. Print Digits of a Number</b> <br>
 Write a recursive function that takes an integer as input and
 prints every digit of the given number on a separate line. <br>
