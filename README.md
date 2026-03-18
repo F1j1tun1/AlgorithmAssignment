@@ -49,3 +49,12 @@ checks whether the string contains only digits. Return "Yes" if
 all characters are digits, otherwise return "No". <br>
 <img width="930" height="474" alt="image" src="https://github.com/user-attachments/assets/ac166bd9-58b3-41e9-81cc-4085d9b8a05a" />
 
+<b>Task 9. Count Characters in a String</b> <br>
+Write a recursive function that counts the number of characters in a
+given string. The function should return the total number of characters
+in the string. <br>
+<img width="949" height="456" alt="image" src="https://github.com/user-attachments/assets/d7700c47-f07a-42b1-878b-4c3400b51bc8" />
+
+<b>Task 10. Greatest Common Divisor (GCD)</b> <br>
+Write a recursive function that finds the GCD of two numbers
+using the Euclidean Algorithm. <br>
