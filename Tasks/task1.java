@@ -2,7 +2,10 @@ import java.util.Scanner;
 
 public class task1 {
     public static void function(int n){
-        if(n == 0) return;
+        if(n < 10) {
+            System.out.println(n);
+            return;
+        }
         function(n / 10);
         System.out.println(n % 10);
     }
