@@ -22,9 +22,7 @@ itself. <br>
 Write a recursive function that calculates n! (factorial). <br>
 <img width="923" height="403" alt="image" src="https://github.com/user-attachments/assets/56e8a1ae-985a-40ec-9473-f39589b402c7" />
 
-
 <h2 align=center><b> Part 2. Recursion with Sequences</b> </h2>
-
 
 <b>Task 5. Fibonacci Number</b> <br>
 Write a recursive function to find the n-th Fibonacci number. <br>
