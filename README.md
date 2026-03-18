@@ -7,7 +7,7 @@ Course: Algorithms and Data Structures</h1>
 <b>Task 1. Print Digits of a Number</b> <br>
 Write a recursive function that takes an integer as input and
 prints every digit of the given number on a separate line. <br>
-<img width="616" height="667" alt="image" src="https://github.com/user-attachments/assets/71b46383-bd16-4200-8d78-274f4ab4c07a" />
+<img width="967" height="463" alt="image" src="https://github.com/user-attachments/assets/9885b8cb-8530-4721-b833-b1d35dce1e5d" />
 
 <b>Task 2. Average of Elements</b> <br>
 Write a recursive function to calculate the sum of the
