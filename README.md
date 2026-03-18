@@ -1,4 +1,4 @@
-Name: Yerkingali Saruar
+Name: Yerkingali Saruar <br>
 Group: IT-2502
 
 Task 1. Print Digits of a Number
