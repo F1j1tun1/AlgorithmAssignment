@@ -1,5 +1,5 @@
-<h1>Name: Yerkingali Saruar</h1> <br>
-<h1>Group: IT-2502</h1>
+<h1>Name: Yerkingali Saruar <br>
+Group: IT-2502</h1>
 
 Task 1. Print Digits of a Number <br>
 Write a recursive function that takes an integer as input and
