@@ -24,7 +24,7 @@ itself. <br>
 Write a recursive function that calculates n! (factorial). <br>
 <img width="923" height="403" alt="image" src="https://github.com/user-attachments/assets/56e8a1ae-985a-40ec-9473-f39589b402c7" />
 
-<h2 align=center><b> Part 2. Recursion with Sequences</b> </h2>
+<h2 align=center> <b>Part 2. Recursion with Sequences</b> </h2>
 
 <b>Task 5. Fibonacci Number</b> <br>
 Write a recursive function to find the n-th Fibonacci number. <br>
@@ -35,5 +35,11 @@ You are given numbers a and n. Write a recursive function that
 returns: a<sup>n</sup> <br>
 <img width="959" height="609" alt="image" src="https://github.com/user-attachments/assets/0d15e106-439f-4610-a6dd-278279e6265c" />
 
+<b>Task 7. Reverse Output</b> <br>
+You are given n numbers. Write a recursive function that reads
+and prints the numbers in reverse order without using another
+array. <br>
+<img width="961" height="484" alt="image" src="https://github.com/user-attachments/assets/25a843d9-e660-4679-a295-d6dac1ead111" />
 
+<h2 align=center> <b>Part 3. Recursion with Strings</b> </h2>
 
