@@ -58,3 +58,8 @@ in the string. <br>
 <b>Task 10. Greatest Common Divisor (GCD)</b> <br>
 Write a recursive function that finds the GCD of two numbers
 using the Euclidean Algorithm. <br>
+<img width="969" height="463" alt="image" src="https://github.com/user-attachments/assets/860a73c7-82f0-4a6f-ab3a-4a76492d4a20" />
+
+<h1 align=center> <b>Brief Summary</b> </h1>
+
+
