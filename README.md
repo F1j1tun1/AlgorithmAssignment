@@ -62,4 +62,4 @@ using the Euclidean Algorithm. <br>
 
 <h1 align=center> <b>Brief Summary</b> </h1>
 
-
+In this Assignment I replaced all loops with recursion. To control the execution I used base case to stop it and calling a function within a function for the next step. To move through the data I used index pionter. Finally for Task 10 I used Euclidean Algorithm found in the internet. This really helped underatnd both recursion and how java works.
