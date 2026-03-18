@@ -43,3 +43,9 @@ array. <br>
 
 <h2 align=center> <b>Part 3. Recursion with Strings</b> </h2>
 
+<b>Task 8. Check Digits in String</b> <br>
+You are given a string s. Write a recursive function that
+checks whether the string contains only digits. Return "Yes" if
+all characters are digits, otherwise return "No". <br>
+<img width="930" height="474" alt="image" src="https://github.com/user-attachments/assets/ac166bd9-58b3-41e9-81cc-4085d9b8a05a" />
+
