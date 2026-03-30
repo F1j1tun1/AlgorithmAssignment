@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class task7 {
     public static void flip(int n, Scanner sc) {
-        if (n == 0) {
+        if (n <= 0) {
             return;
         }
         int a = sc.nextInt();
