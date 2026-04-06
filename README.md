@@ -8,5 +8,9 @@ Task 1: <br>
 Task 2: <br>
 <img width="945" height="862" alt="image" src="https://github.com/user-attachments/assets/6dd17509-9486-42ba-ac6b-43385453836c" />
 
-task 3: <br>
+Task 3: <br>
+<img width="687" height="578" alt="image" src="https://github.com/user-attachments/assets/efd5b2f1-093f-4c73-8feb-27e907fb2ec3" />
+
+Task 4: <br>
+
 
