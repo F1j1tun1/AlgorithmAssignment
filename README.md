@@ -30,7 +30,10 @@ Task 6: <br>
 <img width="399" height="89" alt="image" src="https://github.com/user-attachments/assets/06daeb87-d2ff-4cd3-9345-c55a619ee53e" />
 
 Task 7: <br>
+<img width="328" height="184" alt="image" src="https://github.com/user-attachments/assets/71755973-d6a1-4ca4-8c79-77a7c65bc6e2" />
+<img width="400" height="470" alt="image" src="https://github.com/user-attachments/assets/bc85128a-7276-48d4-81f4-90a3734c998c" />
 
+<h1 allign = center>Summary</h1>
 
 
 
