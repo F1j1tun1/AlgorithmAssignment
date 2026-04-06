@@ -26,8 +26,8 @@ Task 5: <br>
 
 Task 6: <br>
 <img width="781" height="365" alt="image" src="https://github.com/user-attachments/assets/2daf01cf-bde2-4630-8c19-c9c4d749fe50" />
-<img width="399" height="89" alt="image" src="https://github.com/user-attachments/assets/06daeb87-d2ff-4cd3-9345-c55a619ee53e" />
 <img width="433" height="540" alt="image" src="https://github.com/user-attachments/assets/7452e5ec-7655-447e-9d4c-1d640fb1ca3c" />
+<img width="399" height="89" alt="image" src="https://github.com/user-attachments/assets/06daeb87-d2ff-4cd3-9345-c55a619ee53e" />
 
 Task 7: <br>
 
