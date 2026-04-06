@@ -2,64 +2,48 @@
 Group: IT-2502 <br>
 Course: Algorithms and Data Structures</h1>
 
-<h2 align=center> <b>Part 1. Recursion with Numbers</b> </h2>
+<h3>Task 1:</h3> <br>
+<img width="939" height="871" alt="image" src="https://github.com/user-attachments/assets/80a76782-1c22-4455-b705-55486f3b7dec" /><br>
+<img width="428" height="607" alt="image" src="https://github.com/user-attachments/assets/1c22c0a9-55e7-476a-be7d-543c49bc2f2d" /><br>
 
-<b>Task 1. Print Digits of a Number</b> <br>
-Write a recursive function that takes an integer as input and
-prints every digit of the given number on a separate line. <br>
-<img width="967" height="463" alt="image" src="https://github.com/user-attachments/assets/9885b8cb-8530-4721-b833-b1d35dce1e5d" />
 
-<b>Task 2. Average of Elements</b> <br>
-Write a recursive function to calculate the sum of the
-elements, then compute the average using the result. <br>
-<img width="833" height="689" alt="image" src="https://github.com/user-attachments/assets/c4679e0d-2a30-42e5-8df0-0414bf7bb34f" />
+<h3>Task 2:</h3> <br>
+<img width="1021" height="873" alt="image" src="https://github.com/user-attachments/assets/afbbc4a5-568f-48fa-a363-67e768e3857e" /><br>
+<img width="351" height="323" alt="image" src="https://github.com/user-attachments/assets/ef7afc8d-f658-49c4-bd5b-db643a2fd124" /><br>
 
-<b>Task 3. Prime Number Check</b> <br>
-Write a recursive function that checks whether a number n is
-prime. A prime number is a number that is divisible only by 1 and
-itself. <br>
-<img width="1059" height="661" alt="image" src="https://github.com/user-attachments/assets/0650bbe6-d1d9-4d87-9487-b4cdf34e38d7" />
 
-<b>Task 4. Factorial</b> <br>
-Write a recursive function that calculates n! (factorial). <br>
-<img width="923" height="403" alt="image" src="https://github.com/user-attachments/assets/56e8a1ae-985a-40ec-9473-f39589b402c7" />
+<h3>Task 3:</h3> <br>
+<img width="684" height="20" alt="image" src="https://github.com/user-attachments/assets/2ec578f3-c983-431a-827a-b45e79b356a6" /><br>
+<img width="581" height="273" alt="image" src="https://github.com/user-attachments/assets/b1dd25f2-e54b-407e-bd15-77449d4a5617" /><br>
+<img width="626" height="75" alt="image" src="https://github.com/user-attachments/assets/75f7f2b7-9055-427f-9bec-0d4f9ce342cf" /><br>
+<img width="401" height="343" alt="image" src="https://github.com/user-attachments/assets/062597d9-1080-4c39-8163-421629a7dd4b" /><br>
 
-<h2 align=center> <b>Part 2. Recursion with Sequences</b> </h2>
 
-<b>Task 5. Fibonacci Number</b> <br>
-Write a recursive function to find the n-th Fibonacci number. <br>
-<img width="940" height="481" alt="image" src="https://github.com/user-attachments/assets/c69d8cfe-1014-4cbd-bf4a-9931b9d7927c" />
+<h3>Task 4:</h3> <br>
+<img width="675" height="757" alt="image" src="https://github.com/user-attachments/assets/d72d92f7-ad68-43ca-9a11-a15d2cedaeb0" /><br>
+<img width="447" height="603" alt="image" src="https://github.com/user-attachments/assets/b1eb8b10-75f8-4d32-82aa-fb0290d47e9a" /><br>
 
-<b>Task 6. Power Function</b> <br>
-You are given numbers a and n. Write a recursive function that
-returns: a<sup>n</sup> <br>
-<img width="959" height="609" alt="image" src="https://github.com/user-attachments/assets/0d15e106-439f-4610-a6dd-278279e6265c" />
 
-<b>Task 7. Reverse Output</b> <br>
-You are given n numbers. Write a recursive function that reads
-and prints the numbers in reverse order without using another
-array. <br>
-<img width="961" height="484" alt="image" src="https://github.com/user-attachments/assets/25a843d9-e660-4679-a295-d6dac1ead111" />
+<h3>Task 5:</h3> <br>
+<img width="780" height="841" alt="image" src="https://github.com/user-attachments/assets/17ba6b91-7fe6-4cbf-abcd-1c7f68b96f44" /><br>
+<img width="405" height="628" alt="image" src="https://github.com/user-attachments/assets/858bae8a-d102-4567-8607-d17f5d7ca721" /><br>
 
-<h2 align=center> <b>Part 3. Recursion with Strings</b> </h2>
 
-<b>Task 8. Check Digits in String</b> <br>
-You are given a string s. Write a recursive function that
-checks whether the string contains only digits. Return "Yes" if
-all characters are digits, otherwise return "No". <br>
-<img width="930" height="474" alt="image" src="https://github.com/user-attachments/assets/ac166bd9-58b3-41e9-81cc-4085d9b8a05a" />
+<h3>Task 6:</h3> <br>
+<img width="781" height="365" alt="image" src="https://github.com/user-attachments/assets/2daf01cf-bde2-4630-8c19-c9c4d749fe50" /><br>
+<img width="433" height="540" alt="image" src="https://github.com/user-attachments/assets/7452e5ec-7655-447e-9d4c-1d640fb1ca3c" /><br>
+<img width="399" height="89" alt="image" src="https://github.com/user-attachments/assets/06daeb87-d2ff-4cd3-9345-c55a619ee53e" /><br>
 
-<b>Task 9. Count Characters in a String</b> <br>
-Write a recursive function that counts the number of characters in a
-given string. The function should return the total number of characters
-in the string. <br>
-<img width="949" height="456" alt="image" src="https://github.com/user-attachments/assets/d7700c47-f07a-42b1-878b-4c3400b51bc8" />
 
-<b>Task 10. Greatest Common Divisor (GCD)</b> <br>
-Write a recursive function that finds the GCD of two numbers
-using the Euclidean Algorithm. <br>
-<img width="969" height="463" alt="image" src="https://github.com/user-attachments/assets/860a73c7-82f0-4a6f-ab3a-4a76492d4a20" />
+<h3>Task 7:</h3> <br>
+<img width="328" height="184" alt="image" src="https://github.com/user-attachments/assets/71755973-d6a1-4ca4-8c79-77a7c65bc6e2" /><br>
+<img width="400" height="470" alt="image" src="https://github.com/user-attachments/assets/bc85128a-7276-48d4-81f4-90a3734c998c" /><br>
 
-<h1 align=center> <b>Brief Summary</b> </h1>
+<h1>--- Summary ---</h1>
+For this assignment I built a banking system in Java. I used a linkedlist for the main accounts because it is a logical structure that can grow easily. For the 
+undo feature, I used a stack because it follows LIFO (last-in, first-out) so the most recent action is always the first to be removed. I also added queues for bill 
+payments and account requests to follow FIFO logic, ensuring the first in the queue gets processed first. Finally, for Task 6, I used a physical array with a fixed
+size of 3 to show how memory is reserved. Then I organized everything into a main menu with sub-menus for the bank, atm, and admin sections using switch cases.
 
-In this Assignment I replaced all loops with recursion. To control the execution I used base case to stop it and calling a function within a function for the next step. To move through the data I used index pionter. Finally for Task 10 I used Euclidean Algorithm found in the internet. This really helped underatnd both recursion and how java works.
+
+
