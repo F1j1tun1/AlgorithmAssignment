@@ -40,7 +40,10 @@ Course: Algorithms and Data Structures</h1>
 <img width="400" height="470" alt="image" src="https://github.com/user-attachments/assets/bc85128a-7276-48d4-81f4-90a3734c998c" /><br>
 
 <h1>--- Summary ---</h1>
-
+For this assignment I built a banking system in Java. I used a linkedlist for the main accounts because it is a logical structure that can grow easily. For the 
+undo feature, I used a stack because it follows LIFO (last-in, first-out) so the most recent action is always the first to be removed. I also added queues for bill 
+payments and account requests to follow FIFO logic, ensuring the first in the queue gets processed first. Finally, for Task 6, I used a physical array with a fixed
+size of 3 to show how memory is reserved. Then I organized everything into a main menu with sub-menus for the bank, atm, and admin sections using switch cases.
 
 
 
