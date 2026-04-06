@@ -33,7 +33,7 @@ public class Main {
                     atmMenu();
                     break;
                 case 3:
-                    adminArea();
+                    adminMenu();
                     break;
                 case 0:
                     running = false;
@@ -120,7 +120,7 @@ public class Main {
             }
         }
     }
-    public static void adminArea() {
+    public static void adminMenu() {
         boolean run = true;
 
         while (run) {
