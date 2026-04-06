@@ -102,6 +102,7 @@ public class Main {
         System.out.println("\n--- Add an Account ---");
         System.out.println("Enter Account Number:");
         int num = sc.nextInt();
+        sc.nextLine();
         System.out.println("Enter Username:");
         String user = sc.nextLine();
         System.out.println("Enter Balance:");
@@ -222,6 +223,7 @@ public class Main {
         System.out.println("\n--- Request an Account---");
         System.out.println("Enter Account Number:");
         int num = sc.nextInt();
+        sc.nextLine();
         System.out.println("Enter Username:");
         String user = sc.nextLine();
         System.out.println("Enter Balance:");
