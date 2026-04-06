@@ -17,6 +17,8 @@ Task 3: <br>
 <img width="401" height="343" alt="image" src="https://github.com/user-attachments/assets/062597d9-1080-4c39-8163-421629a7dd4b" />
 
 Task 4: <br>
+<img width="675" height="757" alt="image" src="https://github.com/user-attachments/assets/d72d92f7-ad68-43ca-9a11-a15d2cedaeb0" />
+<img width="447" height="603" alt="image" src="https://github.com/user-attachments/assets/b1eb8b10-75f8-4d32-82aa-fb0290d47e9a" />
 
 Task 5: <br>
 
