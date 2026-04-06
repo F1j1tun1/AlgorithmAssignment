@@ -16,19 +16,9 @@ public class Main {
 
         while (running) {
             System.out.println("\n--- Bank Account Management ---");
-            System.out.println("1.  Add a New Account");
-            System.out.println("2.  Display All Accounts");
-            System.out.println("3.  Search Account by Username");
-            System.out.println("4.  Deposit Money");
-            System.out.println("5.  Withdraw Money");
-            System.out.println("6.  Undo Last Transaction");
-            System.out.println("7.  Display Last Transaction");
-            System.out.println("8.  Add a Bill");
-            System.out.println("9.  Process a Bill");
-            System.out.println("10. View the Bill Queue");
-            System.out.println("11. Request an Account");
-            System.out.println("12. Process an Account");
-            System.out.println("13. View the Request Queue");
+            System.out.println("1.  Enter Bank");
+            System.out.println("2.  Enter ATM");
+            System.out.println("3.  Admin Area");
             System.out.println("0.  Exit");
             System.out.print("Choice: ");
 
@@ -37,52 +27,136 @@ public class Main {
 
             switch (choice) {
                 case 1:
-                    addAccount();
+                    bankMenu();
                     break;
                 case 2:
-                    viewAccounts();
+                    atmMenu();
                     break;
                 case 3:
-                    searchByUser();
-                    break;
-                case 4:
-                    deposit();
-                    break;
-                case 5:
-                    withdraw();
-                    break;
-                case 6:
-                    undoStack();
-                    break;
-                case 7:
-                    System.out.println("Last transaction: " + transactions.peek());
-                    break;
-                case 8:
-                    addBill();
-                    break;
-                case 9:
-                    processBill();
-                    break;
-                case 10:
-                    viewBillQueue();
-                    break;
-                case 11:
-                    addRequest();
-                    break;
-                case 12:
-                    processRequest();
-                    break;
-                case 13:
-                    viewRequestQueue();
+                    adminArea();
                     break;
                 case 0:
                     running = false;
+                    System.out.println("Leaving...");
                     break;
                 default:
                     System.out.println("Invalid choice");
             }
         }
     }
+    public static void bankMenu() {
+        boolean run = true;
+
+        while (run) {
+            System.out.println("\n--- Bank Menu ---");
+            System.out.println("1.  Request Account");
+            System.out.println("2.  Deposit Money");
+            System.out.println("3.  Withdraw Money");
+            System.out.println("4.  Request Bill Payment");
+            System.out.println("5.  Undo Last Transaction");
+            System.out.println("0.  Exit");
+            System.out.print("Choice: ");
+            int choice = sc.nextInt();
+            sc.nextLine();
+
+            switch (choice) {
+                case 1:
+                    addRequest();
+                    break;
+                case 2:
+                    deposit();
+                    break;
+                case 3:
+                    withdraw();
+                    break;
+                case 4:
+                    addBill();
+                    break;
+                case 5:
+                    undoStack();
+                    break;
+                case 0:
+                    run = false;
+                    System.out.println("Leaving the Bank...");
+                    break;
+                default:
+                    System.out.println("Invalid choice");
+            }
+        }
+    }
+    public static void atmMenu() {
+        boolean run = true;
+
+        while (run) {
+            System.out.println("\n--- ATM Menu ---");
+            System.out.println("1.  Check Balance");
+            System.out.println("2.  Withdraw");
+            System.out.println("3.  View Last Transaction");
+            System.out.println("0.  Exit");
+            System.out.print("Choice: ");
+            int choice = sc.nextInt();
+            sc.nextLine();
+
+            switch (choice) {
+                case 1:
+                    searchByUser();
+                    break;
+                case 2:
+                    withdraw();
+                    break;
+                case 3:
+                    if (!transactions.isEmpty()) {
+                        System.out.println("Last Transaction: " + transactions.peek());
+                    }
+                    else {
+                        System.out.println("No transactions");
+                    }
+                case 0:
+                    run = false;
+                    System.out.println("Leaving ATM...");
+                    break;
+                default:
+                    System.out.println("Invalid choice");
+            }
+        }
+    }
+    public static void adminArea() {
+        boolean run = true;
+
+        while (run) {
+            System.out.println("\n--- Admin Menu ---");
+            System.out.println("1.  Process an Account");
+            System.out.println("2.  View Requests");
+            System.out.println("3.  Process a Bill");
+            System.out.println("4.  View Bills");
+            System.out.println("0.  Exit");
+            System.out.print("Choice: ");
+            int choice = sc.nextInt();
+            sc.nextLine();
+
+            switch (choice) {
+                case 1:
+                    processRequest();
+                    break;
+                case 2:
+                    viewRequestQueue();
+                    break;
+                case 3:
+                    processBill();
+                    break;
+                case 4:
+                    viewBillQueue();
+                    break;
+                case 0:
+                    run = false;
+                    System.out.println("Leaving the Admin Area...");
+                    break;
+                default:
+                    System.out.println("Invalid choice");
+            }
+        }
+    }
+
 
     public static void physicalArray() {
         System.out.println(" ");
@@ -97,7 +171,6 @@ public class Main {
             accounts.add(acc);
         }
     }
-
     public static void addAccount() {
         System.out.println("\n--- Add an Account ---");
         System.out.println("Enter Account Number:");
@@ -128,13 +201,12 @@ public class Main {
         String user = sc.nextLine();
         for (BankAccount acc: accounts) {
             if (acc.getUsername().equalsIgnoreCase(user)) {
-                System.out.println("Found user: " + acc.getUsername());
+                System.out.println("User " + acc.getUsername() + " has " + acc.getBalance());
                 return;
             }
         }
         System.out.println("User Not Found");
     }
-
     public static void deposit() {
         System.out.println("\n--- Deposit ---");
         System.out.println("Enter Username:");
@@ -177,7 +249,6 @@ public class Main {
         }
         System.out.println("User Not Found");
     }
-
     public static void undoStack() {
         System.out.println("\n--- Undo Last Transaction ---");
         if (!transactions.isEmpty()) {
@@ -188,7 +259,6 @@ public class Main {
             System.out.println("No Transactions");
         }
     }
-
     public static void addBill() {
         System.out.println("\n--- Add a Bill ---");
         System.out.println("Enter the Bill:");
@@ -218,7 +288,6 @@ public class Main {
             System.out.println("Bill Queue is Empty");
         }
     }
-
     public static void addRequest() {
         System.out.println("\n--- Request an Account---");
         System.out.println("Enter Account Number:");
