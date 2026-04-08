@@ -7,7 +7,6 @@ public class AccountRequestManager {
     public void addRequest(BankAccount req) {
         requestsQueue.add(req);
     }
-
     public BankAccount processRequest() {
         if (!requestsQueue.isEmpty()) {
             return requestsQueue.poll();
@@ -16,8 +15,8 @@ public class AccountRequestManager {
             return null;
         }
     }
-
     public void viewRequestsQueue() {
+        System.out.println("\n--- Request Queue ---");
         if (!requestsQueue.isEmpty()) {
             for (BankAccount acc: requestsQueue) {
                 System.out.println("Waiting: " + acc.getUsername());

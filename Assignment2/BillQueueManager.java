@@ -7,15 +7,14 @@ public class BillQueueManager {
     public void addBill(String bill) {
         billQueue.add(bill);
     }
-
     public String processBill() {
         if (!billQueue.isEmpty()) {
             return billQueue.poll();
         }
         return null;
     }
-
     public void viewBillQueue() {
+        System.out.println("\n--- Bill Queue ---");
         if (!billQueue.isEmpty()) {
             for (String bill: billQueue) {
                 System.out.println("Remaining: " + bill);

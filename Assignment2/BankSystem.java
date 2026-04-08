@@ -30,8 +30,7 @@ public class BankSystem {
             System.out.println("2.  Deposit Money");
             System.out.println("3.  Withdraw Money");
             System.out.println("4.  Request Bill Payment");
-            System.out.println("5.  View All Transactions");
-            System.out.println("6.  Undo Last Transaction");
+            System.out.println("5.  Undo Last Transaction");
             System.out.println("0.  Exit");
             System.out.print("Choice: ");
             int choice = sc.nextInt();
@@ -51,10 +50,7 @@ public class BankSystem {
                     controlAddingBill();
                     break;
                 case 5:
-                    tranMgr.viewAllTransactions();
-                    break;
-                case 6:
-                    controlUndo();
+                    tranMgr.undo();
                     break;
                 case 0:
                     run = false;
@@ -107,6 +103,7 @@ public class BankSystem {
             System.out.println("3.  Process a Bill");
             System.out.println("4.  View Bills");
             System.out.println("5.  View All Accounts");
+            System.out.println("6.  View All Transactions");
             System.out.println("0.  Exit");
             System.out.print("Choice: ");
             int choice = sc.nextInt();
@@ -127,6 +124,9 @@ public class BankSystem {
                     break;
                 case 5:
                     accMgr.viewAccounts();
+                    break;
+                case 6:
+                    tranMgr.viewAllTransactions();
                     break;
                 case 0:
                     run = false;
@@ -195,16 +195,6 @@ public class BankSystem {
         String bill = sc.nextLine();
         billMgr.addBill(bill);
         System.out.println("Added: " + bill);
-    }
-    public void controlUndo() {
-        System.out.println("\n--- Undo Last Transaction ---");
-        String last = tranMgr.pop();
-        if (last != null) {
-            System.out.println("Undo → " + last);
-        }
-        else {
-            System.out.println("No Transactions");
-        }
     }
     public void controlSearch() {
         System.out.println("\n--- Search by Username ---");
