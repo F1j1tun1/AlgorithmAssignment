@@ -209,7 +209,7 @@ public class BankSystem {
         }
     }
     public void controlProcessRequest() {
-        System.out.println("\n--- Process a Requested Account ---");
+        System.out.println("\n--- Process Requested Account ---");
         BankAccount req = reqMgr.processRequest();
         if (req != null) {
             accMgr.addAccount(req);
