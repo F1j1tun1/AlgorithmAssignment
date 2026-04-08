@@ -1,7 +1,8 @@
 <h1>Name: Yerkingali Saruar <br>
 Group: IT-2502 <br>
 Course: Algorithms and Data Structures</h1>
-<h2>Part 1. Logical Data Structures</h2>
+
+<h2>--- Part 1. Logical Data Structures ---</h2>
 Task 1:<br>
 <img width="763" height="249" alt="image" src="https://github.com/user-attachments/assets/141063db-8793-4e52-877d-d631d20fc427" />
 <img width="268" height="299" alt="image" src="https://github.com/user-attachments/assets/3abde28f-7b49-4eed-8839-e532e7c6f191" />
@@ -29,12 +30,12 @@ Task 5:<br>
 <img width="225" height="67" alt="image" src="https://github.com/user-attachments/assets/8bde614f-60f2-4d43-bb5e-cf7f5ba448b8" /><br>
 <img width="209" height="79" alt="image" src="https://github.com/user-attachments/assets/1134f43c-885a-42f0-b9ff-19f4d0bff922" />
 
-<h2>Part 2. Physical Data Structures</h2>
+<h2>--- Part 2. Physical Data Structures ---</h2>
 Task 6:<br>
 <img width="757" height="345" alt="image" src="https://github.com/user-attachments/assets/498b25d6-ce22-4fde-8da4-daaf7200253f" /><br>
 <img width="150" height="81" alt="image" src="https://github.com/user-attachments/assets/294d14e9-afae-4209-b357-be1c1d0a717f" />
 
-<h2>Part 3. Mini Banking Menu</h2>
+<h2>--- Part 3. Mini Banking Menu ---</h2>
 Task 7:<br>
 <img width="248" height="161" alt="image" src="https://github.com/user-attachments/assets/2bb0fcea-f45f-4f1c-bd5c-77d4cbaba114" /><br>
 <img width="298" height="219" alt="image" src="https://github.com/user-attachments/assets/9ee9a26c-55c3-4727-9135-05e1d0fff5be" /><br>
