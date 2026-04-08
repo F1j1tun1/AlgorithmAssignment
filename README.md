@@ -43,10 +43,10 @@ Task 7:<br>
 <img width="250" height="233" alt="image" src="https://github.com/user-attachments/assets/f806e3f1-2499-4698-b8fc-40a8dc95e4e9" />
 
 <h1>--- Summary ---</h1>
-For this assignment I built a banking system in Java. I used a linkedlist for the main accounts because it is a logical structure that can grow easily. For the 
-undo feature, I used a stack because it follows LIFO (last-in, first-out) so the most recent action is always the first to be removed. I also added queues for bill 
-payments and account requests to follow FIFO logic, ensuring the first in the queue gets processed first. Finally, for Task 6, I used a physical array with a fixed
-size of 3 to show how memory is reserved. Then I organized everything into a main menu with sub-menus for the bank, atm, and admin sections using switch cases.
-
-
+For this project, I built a bank system to learn about data structures in Java. I used a linkedlist for the accounts because it is a logical structure that can
+grow whenever a new user joins. Everything that needed input was created in BankSystem, almost everything else in data structures. For the undo button, I used a
+stack because it follows LIFO (last-in, first-out) logic, which means the last thing I did is the first thing that gets undone. I also used queues for things like
+bill payments and account requests. This follows FIFO (first-in, first-out) logic so that the first person in line is the first one processed by the admin.
+Finally, I used a physical array with a fixed size of 3 for the starting users to show how memory is reserved. I organized everything into three menus: bank, atm,
+and admin to make it easy to use.
 
