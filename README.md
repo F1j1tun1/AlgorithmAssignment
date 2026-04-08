@@ -35,6 +35,10 @@ Course: Algorithms and Data Structures</h1>
 <img width="150" height="81" alt="image" src="https://github.com/user-attachments/assets/294d14e9-afae-4209-b357-be1c1d0a717f" />
 
 <h3>Task 7:</h3> <br>
+<img width="248" height="161" alt="image" src="https://github.com/user-attachments/assets/2bb0fcea-f45f-4f1c-bd5c-77d4cbaba114" /><br>
+<img width="298" height="219" alt="image" src="https://github.com/user-attachments/assets/9ee9a26c-55c3-4727-9135-05e1d0fff5be" /><br>
+<img width="252" height="153" alt="image" src="https://github.com/user-attachments/assets/36600b8a-18a9-4f47-b16c-d8c52a33aaef" /><br>
+<img width="250" height="233" alt="image" src="https://github.com/user-attachments/assets/f806e3f1-2499-4698-b8fc-40a8dc95e4e9" />
 
 <h1>--- Summary ---</h1>
 For this assignment I built a banking system in Java. I used a linkedlist for the main accounts because it is a logical structure that can grow easily. For the 
