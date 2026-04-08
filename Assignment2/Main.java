@@ -8,7 +8,7 @@ public class Main {
         boolean running = true;
 
         while (running) {
-            System.out.println("\n--- Bank Account Management ---");
+            System.out.println("\n--- Bank Management ---");
             System.out.println("1.  Enter Bank");
             System.out.println("2.  Enter ATM");
             System.out.println("3.  Admin Area");
