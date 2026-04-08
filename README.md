@@ -15,7 +15,6 @@ Course: Algorithms and Data Structures</h1>
 <img width="638" height="22" alt="image" src="https://github.com/user-attachments/assets/d240aa62-7bb5-4ea7-9642-f9a551fac119" /><br>
 <img width="455" height="20" alt="image" src="https://github.com/user-attachments/assets/a6e8c0fe-5fbf-411a-829a-2d7466343be0" /><br>
 <img width="526" height="25" alt="image" src="https://github.com/user-attachments/assets/d5fd4f2a-de3f-4376-a4b1-258d60c8f5d6" /><br>
-<img width="555" height="261" alt="image" src="https://github.com/user-attachments/assets/49fed560-b923-41f2-b851-6d2756b35fe4" /><br>
 <img width="303" height="328" alt="image" src="https://github.com/user-attachments/assets/1fd989f4-b61a-43e2-b510-820122b2388c" />
 
 <h3>Task 4:</h3> <br>
@@ -25,12 +24,20 @@ Course: Algorithms and Data Structures</h1>
 <img width="233" height="91" alt="image" src="https://github.com/user-attachments/assets/e127447e-d145-405b-89ee-6ab23b10836d" />
 
 <h3>Task 5:</h3> <br>
-
+<img width="601" height="285" alt="image" src="https://github.com/user-attachments/assets/39cf7c7e-b107-4480-ac8e-d3ffe9d97cf3" /><br>
+<img width="312" height="210" alt="image" src="https://github.com/user-attachments/assets/47d034a6-5ff9-4e66-a579-da431910563d" /><br>
+<img width="225" height="67" alt="image" src="https://github.com/user-attachments/assets/8bde614f-60f2-4d43-bb5e-cf7f5ba448b8" /><br>
+<img width="209" height="79" alt="image" src="https://github.com/user-attachments/assets/1134f43c-885a-42f0-b9ff-19f4d0bff922" />
 
 <h3>Task 6:</h3> <br>
-
+<img width="757" height="345" alt="image" src="https://github.com/user-attachments/assets/498b25d6-ce22-4fde-8da4-daaf7200253f" /><br>
+<img width="150" height="81" alt="image" src="https://github.com/user-attachments/assets/294d14e9-afae-4209-b357-be1c1d0a717f" />
 
 <h3>Task 7:</h3> <br>
+<img width="248" height="161" alt="image" src="https://github.com/user-attachments/assets/2bb0fcea-f45f-4f1c-bd5c-77d4cbaba114" /><br>
+<img width="298" height="219" alt="image" src="https://github.com/user-attachments/assets/9ee9a26c-55c3-4727-9135-05e1d0fff5be" /><br>
+<img width="252" height="153" alt="image" src="https://github.com/user-attachments/assets/36600b8a-18a9-4f47-b16c-d8c52a33aaef" /><br>
+<img width="250" height="233" alt="image" src="https://github.com/user-attachments/assets/f806e3f1-2499-4698-b8fc-40a8dc95e4e9" />
 
 <h1>--- Summary ---</h1>
 For this assignment I built a banking system in Java. I used a linkedlist for the main accounts because it is a logical structure that can grow easily. For the 
