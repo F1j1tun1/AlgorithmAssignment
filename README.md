@@ -25,7 +25,10 @@ Course: Algorithms and Data Structures</h1>
 <img width="233" height="91" alt="image" src="https://github.com/user-attachments/assets/e127447e-d145-405b-89ee-6ab23b10836d" />
 
 <h3>Task 5:</h3> <br>
-
+<img width="601" height="285" alt="image" src="https://github.com/user-attachments/assets/39cf7c7e-b107-4480-ac8e-d3ffe9d97cf3" /><br>
+<img width="312" height="210" alt="image" src="https://github.com/user-attachments/assets/47d034a6-5ff9-4e66-a579-da431910563d" /><br>
+<img width="225" height="67" alt="image" src="https://github.com/user-attachments/assets/8bde614f-60f2-4d43-bb5e-cf7f5ba448b8" /><br>
+<img width="209" height="79" alt="image" src="https://github.com/user-attachments/assets/1134f43c-885a-42f0-b9ff-19f4d0bff922" />
 
 <h3>Task 6:</h3> <br>
 
