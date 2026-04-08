@@ -11,9 +11,9 @@ public class BankSystem {
         System.out.println(" ");
         BankAccount[] array = new BankAccount[3];
 
-        array[0] = new BankAccount(1, "Ali", 50000);
-        array[1] = new BankAccount(2, "Sara", 25000);
-        array[2] = new BankAccount(3, "Beka", 10000);
+        array[0] = new BankAccount(1, "Ali", 500000);
+        array[1] = new BankAccount(2, "Sara", 250000);
+        array[2] = new BankAccount(3, "Beka", 100000);
 
         for (BankAccount acc: array) {
             System.out.println(acc.getUsername());
