@@ -7,10 +7,16 @@ Course: Algorithms and Data Structures</h1>
 <img width="268" height="299" alt="image" src="https://github.com/user-attachments/assets/3abde28f-7b49-4eed-8839-e532e7c6f191" />
 
 <h3>Task 2:</h3> <br>
-
+<img width="797" height="834" alt="image" src="https://github.com/user-attachments/assets/bc4caa0a-7a20-4f9c-b053-dd16c37aee81" />
+<img width="207" height="161" alt="image" src="https://github.com/user-attachments/assets/6aaddf40-b2f5-4afd-af29-c769d5f4d642" />
 
 <h3>Task 3:</h3> <br>
-
+<img width="664" height="24" alt="image" src="https://github.com/user-attachments/assets/bbd2b502-084b-4d5a-89ce-ff0119484e04" /><br>
+<img width="638" height="22" alt="image" src="https://github.com/user-attachments/assets/d240aa62-7bb5-4ea7-9642-f9a551fac119" /><br>
+<img width="455" height="20" alt="image" src="https://github.com/user-attachments/assets/a6e8c0fe-5fbf-411a-829a-2d7466343be0" /><br>
+<img width="526" height="25" alt="image" src="https://github.com/user-attachments/assets/d5fd4f2a-de3f-4376-a4b1-258d60c8f5d6" /><br>
+<img width="555" height="261" alt="image" src="https://github.com/user-attachments/assets/49fed560-b923-41f2-b851-6d2756b35fe4" /><br>
+<img width="303" height="328" alt="image" src="https://github.com/user-attachments/assets/1fd989f4-b61a-43e2-b510-820122b2388c" />
 
 <h3>Task 4:</h3> <br>
 
