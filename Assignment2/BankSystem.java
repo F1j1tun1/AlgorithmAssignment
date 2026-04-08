@@ -234,6 +234,7 @@ public class BankSystem {
         String bill = billMgr.processBill();
         if (bill != null) {
             System.out.println("Processed: " + bill);
+            tranMgr.push("Bill " + bill + " Was Paid");
         }
         else {
             System.out.println("No Bills in Queue");
