@@ -67,7 +67,7 @@ public class BankSystem {
         while (run) {
             System.out.println("\n--- ATM Menu ---");
             System.out.println("1.  Check Balance");
-            System.out.println("2.  Withdraw");
+            System.out.println("2.  Withdraw Money");
             System.out.println("3.  View Last Transaction");
             System.out.println("0.  Exit");
             System.out.print("Choice: ");
@@ -99,11 +99,11 @@ public class BankSystem {
         while (run) {
             System.out.println("\n--- Admin Menu ---");
             System.out.println("1.  Process an Account");
-            System.out.println("2.  View Requests");
+            System.out.println("2.  View Requests in Queue");
             System.out.println("3.  Process a Bill");
-            System.out.println("4.  View Bills");
-            System.out.println("5.  View All Accounts");
-            System.out.println("6.  View All Transactions");
+            System.out.println("4.  View Bills in Queue");
+            System.out.println("5.  View Accounts");
+            System.out.println("6.  View Transactions");
             System.out.println("0.  Exit");
             System.out.print("Choice: ");
             int choice = sc.nextInt();
@@ -209,7 +209,7 @@ public class BankSystem {
         }
     }
     public void controlProcessRequest() {
-        System.out.println("\n--- Process Requested Account ---");
+        System.out.println("\n--- Process Account ---");
         BankAccount req = reqMgr.processRequest();
         if (req != null) {
             accMgr.addAccount(req);
@@ -220,7 +220,7 @@ public class BankSystem {
         }
     }
     public void controlProcessBill() {
-        System.out.println("\n--- Process Requested Bill ---");
+        System.out.println("\n--- Process Bill ---");
         String bill = billMgr.processBill();
         if (bill != null) {
             System.out.println("Processed: " + bill);
