@@ -1,3 +1,7 @@
+<h1>Yerkingali Saruar</h1>
+<h1>IT-2502 Assignment-3</h1>
+<h1>Algorithms and Data Structures</h1>
+
 <h1>The Questions</h1>
 <b>Which sorting algorithm performed faster? Why?</b>
 <p>Quick Sort performed much faster than Bubble Sort because it has a better time complexity for large datasets. This is because Quick Sort uses a divide and 
