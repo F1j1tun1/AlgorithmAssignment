@@ -1,52 +1,14 @@
-<h1>Name: Yerkingali Saruar <br>
-Group: IT-2502 <br>
-Course: Algorithms and Data Structures</h1>
+<h1>Project Overview</h1>
+<p>The main goal of this assignment is to implement and compare different sorting and searching algorithms to see how they work in real life[cite: 1, 3]. I chose Bubble Sort for the basic category and Quick Sort for the advanced one while using Linear Search for the searching part[cite: 9, 13, 16, 19]. The system measures how many nanoseconds it takes to run these on small and large arrays to analyze the efficiency[cite: 4, 41, 70, 72].</p>
 
-<h2>--- Part 1. Logical Data Structures ---</h2>
-✅Task 1:<br>
-<img width="763" height="249" alt="image" src="https://github.com/user-attachments/assets/141063db-8793-4e52-877d-d631d20fc427" />
-<img width="268" height="299" alt="image" src="https://github.com/user-attachments/assets/3abde28f-7b49-4eed-8839-e532e7c6f191" />
+<h1>Algorithm Descriptions</h1>
+<p>Bubble Sort is a basic algorithm that checks every pair of numbers and swaps them if the order is wrong which makes it quite slow for big data[cite: 13, 86, 87]. Quick Sort is an advanced method that uses a pivot to split the array and sort it much faster[cite: 16, 86, 87]. Linear Search just looks through every item one by one until it finds the target or reaches the end of the list[cite: 19, 86, 87].</p>
 
-✅Task 2:<br>
-<img width="797" height="834" alt="image" src="https://github.com/user-attachments/assets/bc4caa0a-7a20-4f9c-b053-dd16c37aee81" />
-<img width="207" height="161" alt="image" src="https://github.com/user-attachments/assets/6aaddf40-b2f5-4afd-af29-c769d5f4d642" />
+<h1>Experimental Results</h1>
+<p>I ran the code for sizes 10 and 100 and 1000 to see the differences[cite: 56, 57, 58]. For 1000 elements the Bubble Sort was very slow compared to the Quick Sort which proves the theory[cite: 72, 73, 80]. You can find the specific nanosecond values in the screenshots folder[cite: 96, 97, 113].</p>
 
-✅Task 3:<br>
-<img width="664" height="24" alt="image" src="https://github.com/user-attachments/assets/bbd2b502-084b-4d5a-89ce-ff0119484e04" /><br>
-<img width="638" height="22" alt="image" src="https://github.com/user-attachments/assets/d240aa62-7bb5-4ea7-9642-f9a551fac119" /><br>
-<img width="455" height="20" alt="image" src="https://github.com/user-attachments/assets/a6e8c0fe-5fbf-411a-829a-2d7466343be0" /><br>
-<img width="526" height="25" alt="image" src="https://github.com/user-attachments/assets/d5fd4f2a-de3f-4376-a4b1-258d60c8f5d6" /><br>
-<img width="303" height="328" alt="image" src="https://github.com/user-attachments/assets/1fd989f4-b61a-43e2-b510-820122b2388c" />
+<h1>The Questions</h1>
+<p>Quick Sort performed faster because it uses a more efficient way to divide the data while Bubble Sort has to do too many swaps[cite: 80]. Performance gets much worse for Bubble Sort when the input size grows because it is an O(n squared) algorithm[cite: 3, 80, 81]. Sorted data helps some algorithms run faster but Linear Search still has to check everything if the item is at the end[cite: 81]. My results matched the expected Big-O complexity since the times increased like the math predicted[cite: 81]. Linear Search is not very efficient for large arrays because it takes too long to find things[cite: 82]. Binary Search requires a sorted array so it can skip half the numbers each time it looks[cite: 82].</p>
 
-✅Task 4:<br>
-<img width="476" height="232" alt="image" src="https://github.com/user-attachments/assets/1342bb1f-367b-4295-a822-eed1636eeaf1" /><br>
-<img width="482" height="184" alt="image" src="https://github.com/user-attachments/assets/ee8ac9f7-2068-4955-a9ea-891c6b7c037e" /><br>
-<img width="173" height="111" alt="image" src="https://github.com/user-attachments/assets/c98c0f8c-ae12-421c-b3fd-fc1b53541dea" /><br>
-<img width="233" height="91" alt="image" src="https://github.com/user-attachments/assets/e127447e-d145-405b-89ee-6ab23b10836d" />
-
-✅Task 5:<br>
-<img width="601" height="285" alt="image" src="https://github.com/user-attachments/assets/39cf7c7e-b107-4480-ac8e-d3ffe9d97cf3" /><br>
-<img width="312" height="210" alt="image" src="https://github.com/user-attachments/assets/47d034a6-5ff9-4e66-a579-da431910563d" /><br>
-<img width="225" height="67" alt="image" src="https://github.com/user-attachments/assets/8bde614f-60f2-4d43-bb5e-cf7f5ba448b8" /><br>
-<img width="209" height="79" alt="image" src="https://github.com/user-attachments/assets/1134f43c-885a-42f0-b9ff-19f4d0bff922" />
-
-<h2>--- Part 2. Physical Data Structures ---</h2>
-✅Task 6:<br>
-<img width="757" height="345" alt="image" src="https://github.com/user-attachments/assets/498b25d6-ce22-4fde-8da4-daaf7200253f" /><br>
-<img width="150" height="81" alt="image" src="https://github.com/user-attachments/assets/294d14e9-afae-4209-b357-be1c1d0a717f" />
-
-<h2>--- Part 3. Mini Banking Menu ---</h2>
-✅Task 7:<br>
-<img width="248" height="161" alt="image" src="https://github.com/user-attachments/assets/2bb0fcea-f45f-4f1c-bd5c-77d4cbaba114" /><br>
-<img width="298" height="219" alt="image" src="https://github.com/user-attachments/assets/9ee9a26c-55c3-4727-9135-05e1d0fff5be" /><br>
-<img width="252" height="153" alt="image" src="https://github.com/user-attachments/assets/36600b8a-18a9-4f47-b16c-d8c52a33aaef" /><br>
-<img width="250" height="233" alt="image" src="https://github.com/user-attachments/assets/f806e3f1-2499-4698-b8fc-40a8dc95e4e9" />
-
-<h1>--- Summary ---</h1>
-For this project, I built a bank system to learn about data structures in Java. I used a linkedlist for the accounts because it is a logical structure that can
-grow whenever a new user joins. Everything that needed input was created in BankSystem, almost everything else in data structures. For the undo button, I used a
-stack because it follows LIFO (last-in, first-out) logic, which means the last thing I did is the first thing that gets undone. I also used queues for things like
-bill payments and account requests. This follows FIFO (first-in, first-out) logic so that the first person in line is the first one processed by the admin.
-Finally, I used a physical array with a fixed size of 3 for the starting users to show how memory is reserved. I organized everything into three menus: bank, atm,
-and admin to make it easy to use.
-
+<h1>Project Reflection</h1>
+<p>I learned that choosing the right algorithm is very important for coding because some are just too slow for large amounts of data[cite: 101, 102]. Comparing theoretical times to the actual nanoseconds measured in the program was very interesting[cite: 102, 103]. The hardest part was making sure the code was organized properly in different files[cite: 103].</p>
