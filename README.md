@@ -22,9 +22,9 @@ types like binary search are much faster.</p>
 <p>Binary Search requires a sorted array because it needs to know which half of the data to skip during the search. If the data is messy it cannot decide if it 
 needs to look higher or lower than the middle point.</p>
 
-
 <hr>
-
+<hr>
+<hr>
 
 <h3>A. Project Overview:</h3>
 <p>The purpose of this experiment is to measure and analyze the performance of fundamental sorting and searching algorithms in a practical scenario. I implemented 
