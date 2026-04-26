@@ -2,7 +2,7 @@
 IT-2502 Assignment-3 <br>
 Algorithms and Data Structures</h1>
 
-<h1>The Questions</h1>
+<h2>The Questions</h2>
 <b>Which sorting algorithm performed faster? Why?</b>
 <p>Quick Sort performed much faster than Bubble Sort because it has a better time complexity for large datasets. This is because Quick Sort uses a divide and 
 conquer method while Bubble Sort has to compare every single pair of numbers.</p>
@@ -24,7 +24,7 @@ needs to look higher or lower than the middle point.</p>
 
 <hr>
 
-<h1>A. Project Overview</h1>
+<h3>A. Project Overview</h3>
 <p>The purpose of this experiment is to measure and analyze the performance of fundamental sorting and searching algorithms in a practical scenario. I implemented 
 Bubble Sort for the basic category and Quick Sort for the advanced category while using Linear Search for the searching requirement. This project helps us 
 understand how Big-O notation works when you actually measure execution time with real data sizes.</p>
