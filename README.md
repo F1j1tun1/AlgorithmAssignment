@@ -1,6 +1,6 @@
-<h1>Yerkingali Saruar</h1>
-<h1>IT-2502 Assignment-3</h1>
-<h1>Algorithms and Data Structures</h1>
+<h1>Yerkingali Saruar <br>
+IT-2502 Assignment-3 <br>
+Algorithms and Data Structures</h1>
 
 <h1>The Questions</h1>
 <b>Which sorting algorithm performed faster? Why?</b>
