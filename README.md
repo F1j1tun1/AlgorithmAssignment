@@ -51,9 +51,9 @@ Complexity: O(V+E)
 
 <h2>D Experimental Results</h2>
 Observation:
-10 Vertices  | BFS: 145,200       | DFS: 180,500
-30 Vertices  | BFS: 320,800       | DFS: 355,100
-100 Vertices | BFS: 1,105,400     | DFS: 1,210,300
+10 Vertices  | BFS: 145,200       | DFS: 180,500 <br>
+30 Vertices  | BFS: 320,800       | DFS: 355,100 <br>
+100 Vertices | BFS: 1,105,400     | DFS: 1,210,300 <br>
 
 <h2>E Screenshots</h2>
 
