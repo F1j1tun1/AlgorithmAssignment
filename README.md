@@ -2,10 +2,9 @@
 IT-2502 Assignment-4 <br>
 Algorithms and Data Structures</h1>
 
-# Assignment 4: Graph Traversal System
 
-## Analysis Questions
-**1. How does graph size affect BFS and DFS performance?**
+<h2>Analysis Questions</h2>
+<b>1. How does graph size affect BFS and DFS performance?</b>
 As the number of vertices (V) and edges (E) increase, both algorithms take more time. Since they are $O(V+E)$, the time growth is mostly linear relative to the total size of the graph structure.
 
 **2. Which traversal is faster in your experiments?**
