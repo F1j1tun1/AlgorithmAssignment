@@ -7,7 +7,7 @@ Algorithms and Data Structures</h1>
 <h2>Analysis Questions</h2>
 
 <b>1. How does graph size affect BFS and DFS performance?</b>
-As the number of vertices (V) and edges (E) increase, both algorithms take more time. Since they are O(V+E), the time growth is mostly linear relative to the 
+As the number of vertices and edges increase, both algorithms take more time. Since they are O(V+E), the time growth is mostly linear relative to the   
 total size of the graph structure.
 
 <b>2. Which traversal is faster in your experiments?</b>
@@ -60,8 +60,8 @@ Observation: <br>
 <h2>E Screenshots</h2>
 <img width="392" height="172" alt="image" src="https://github.com/user-attachments/assets/b45d0e0d-e11c-402f-9156-3b5788a86643" />
 
-
 <h2>F Reflection</h2>
-I learned how much the data structure matters for graphs. Using an adjacency list made it easy to iterate through neighbors. The main challenge was making sure I 
-didn't visit the same node twice, which would cause an infinite loop in the DFS. BFS was easier to visualize with the queue, but DFS is very clean to write with 
-recursion.
+I learned how to represent directed graphs using an adjacency list, which is more memory efficient than a matrix. I observed that DFS was usually faster in my 
+tests because it uses a simple recursive stack, while BFS has the extra overhead of managing a Queue object. A challenge was managing the output to show the small 
+graph traversal order for points while keeping the 30 and 100-vertex results clean for the report. My results also showed how the JVM warmup makes the first test 
+look slower, but the overall patterns confirm the O(V+E) complexity for both algorithms.
