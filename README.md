@@ -29,27 +29,27 @@ path like BFS does.
 <hr>
 
 <h2>A Project Overview</h2>
-This project implements a Graph Representation System using an **Adjacency List**. We use **Vertices** to represent points and **Edges** for the links between 
-them. The main goal is to compare **Breadth-First Search (BFS)** and **Depth-First Search (DFS)** algorithms.
+This project implements a Graph Representation System using an Adjacency List. We use Vertices to represent points and Edges for the links between 
+them. The main goal is to compare Breadth-First Search (BFS) and Depth-First Search (DFS) algorithms.
 
-## Class Descriptions
-- **Vertex**: Holds the unique ID for each node.
-- **Edge**: Represents a directed connection from a source to a destination.
-- **Graph**: The main structure. It uses a `Map<Integer, List<Integer>>` for the Adjacency List, which is memory efficient for sparse graphs.
-- **Experiment**: Utility class to automate testing and measure time using `System.nanoTime()`.
+<h2>B Class Descriptions</h2>
+- Vertex: Holds the unique ID for each node.
+- Edge: Represents a directed connection from a source to a destination.
+- Graph: The main structure. It uses a `Map<Integer, List<Integer>>` for the Adjacency List, which is memory efficient for sparse graphs.
+- Experiment: Utility class to automate testing and measure time using System.nanoTime().
 
-## Algorithm Descriptions
-### BFS (Breadth-First Search)
-- **Steps**: Uses a Queue. Visit start node, mark visited, then visit all neighbors. Repeat for each neighbor in the queue.
-- **Use Case**: Shortest path, Social networking "friends of friends".
-- **Complexity**: $O(V+E)$
+<h2>C Algorithm Descriptions</h2>
+<b>BFS (Breadth-First Search)</b>
+- Steps: Uses a Queue. Visit start node, mark visited, then visit all neighbors. Repeat for each neighbor in the queue.
+- Use Case: Shortest path, Social networking "friends of friends".
+- Complexity: O(V+E)
 
-### DFS (Depth-First Search)
-- **Steps**: Uses Recursion (or a Stack). Visit start node, then immediately visit the first unvisited neighbor and go as deep as possible before backtracking.
-- **Use Case**: Solving puzzles (mazes), topological sorting.
-- **Complexity**: $O(V+E)$
+<b>DFS (Depth-First Search)</b>
+- Steps: Uses Recursion. Visit start node, then immediately visit the first unvisited neighbor and go as deep as possible before backtracking.
+- Use Case: Solving puzzles, topological sorting.
+- Complexity: O(V+E)
 
-## Experimental Results
+<h2>D Experimental Results</h2>
 | Graph Size | BFS Time (ns) | DFS Time (ns) |
 |------------|---------------|---------------|
 | 10 Vertices| 145,200       | 180,500       |
@@ -58,5 +58,7 @@ them. The main goal is to compare **Breadth-First Search (BFS)** and **Depth-Fir
 
 **Observations:** Performance remains stable as size increases. DFS is slightly slower due to recursive calls.
 
-## Reflection
-I learned how much the data structure matters for graphs. Using an adjacency list made it easy to iterate through neighbors. The main challenge was making sure I didn't visit the same node twice, which would cause an infinite loop in the DFS. BFS was easier to visualize with the queue, but DFS is very clean to write with recursion.
+<h2>F Reflection</h2>
+I learned how much the data structure matters for graphs. Using an adjacency list made it easy to iterate through neighbors. The main challenge was making sure I 
+didn't visit the same node twice, which would cause an infinite loop in the DFS. BFS was easier to visualize with the queue, but DFS is very clean to write with 
+recursion.
