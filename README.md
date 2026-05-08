@@ -1,53 +1,58 @@
 <h1>Yerkingali Saruar <br>
-IT-2502 Assignment-3 <br>
+IT-2502 Assignment-4 <br>
 Algorithms and Data Structures</h1>
 
-<h3>The Questions:</h3>
-<b>Which sorting algorithm performed faster? Why?</b>
-<p>Quick Sort performed much faster than Bubble Sort because it has a better time complexity for large datasets. This is because Quick Sort uses a divide and 
-conquer method while Bubble Sort has to compare every single pair of numbers.</p>
-<b>How does performance change with input size?</b>
-<p>Performance for Bubble Sort gets much slower when the input size grows from small to large because it is an O(n<sup>2</sup>) algorithm. When you increase the
-elements the time it takes increases very fast compared to more advanced algorithms.</p>
-<b>How does sorted vs unsorted data affect performance?</b>
-<p>Sorted data can make some algorithms faster but it depends on how the code is written to handle already ordered elements. For example Bubble Sort might finish
-earlier if there are no swaps but it still often takes more time than advanced sorts.</p>
-<b>Do the results match the expected Big-O complexity?</b>
-<p>The results I got from the experiment match the expected Big-O complexity since the time measured in nanoseconds increased as the arrays got bigger just like 
-the theory says.</p>
-<b>Which searching algorithm is more efficient? Why?</b>
-<p>Linear Search is not very efficient for large arrays because it has to check every element which takes too much time. It has a complexity of $O(n)$ while other 
-types like binary search are much faster.</p>
-<b>Why does Binary Search require a sorted array?</b>
-<p>Binary Search requires a sorted array because it needs to know which half of the data to skip during the search. If the data is messy it cannot decide if it 
-needs to look higher or lower than the middle point.</p>
+# Assignment 4: Graph Traversal System
 
-<hr>
-<hr>
-<hr>
+## Analysis Questions
+**1. How does graph size affect BFS and DFS performance?**
+As the number of vertices (V) and edges (E) increase, both algorithms take more time. Since they are $O(V+E)$, the time growth is mostly linear relative to the total size of the graph structure.
 
-<h3>A. Project Overview:</h3>
-<p>The purpose of this experiment is to measure and analyze the performance of fundamental sorting and searching algorithms in a practical scenario. I implemented 
-Bubble Sort for the basic category and Quick Sort for the advanced category while using Linear Search for the searching requirement. This project helps us 
-understand how Big-O notation works when you actually measure execution time with real data sizes.</p>
+**2. Which traversal is faster in your experiments?**
+In my tests, BFS usually finished a bit faster than DFS. I think this is because DFS uses recursion which has some overhead on the system stack, while BFS uses a simple Queue.
 
-<h3>B. Algorithm Descriptions:</h3>
-<p>Bubble Sort is a simple sorting algorithm that works by repeatedly swapping adjacent elements if they are in the wrong order which makes it slow for large 
-arrays. Quick Sort is a much faster divide and conquer algorithm that picks a pivot to partition the data into smaller parts. Linear Search is a basic searching 
-method that checks every single element in the array one by one until it finds the right value.</p>
+**3. Do results match the expected complexity $O(V+E)$?**
+Yes, when I moved from 10 to 100 vertices, the time didn't explode exponentially. It stayed within a reasonable range that follows the $O(V+E)$ pattern.
 
-<h3>C. Experimental Results:</h3>
-<p>I tested these algorithms on different datasets including random and sorted arrays of various sizes including small and medium and large. The results show that 
-execution times change a lot depending on the input size and data structure. Look at the next section under.</p>
+**4. How does graph structure affect traversal order?**
+The order changes alot based on how edges are connected. If the graph is very deep, DFS goes way down one path first. If the graph is "wide" or flat, BFS visits all immediate neighbors first which looks very different in the output.
 
-<h3>D. Screenshots:</h3>
-<img width="719" height="342" alt="image" src="https://github.com/user-attachments/assets/f91e190a-df71-4407-bdf0-d5a9ce10abdc" />
+**5. When is BFS preferred over DFS?**
+BFS is better when you need to find the shortest path in an unweighted graph. It is also good if you know the target node is close to the starting point.
 
-<h3>E. Reflection Section:</h3>
-<p>Working on this project helped me see how algorithm efficiency works in a real computer program instead of just looking at formulas in a textbook. I learned 
-that the difference between O(n<sup>2</sup>) and O(nlog(n)) is not just a math concept because you can actually see the nanoseconds getting much higher for Bubble 
-Sort as the array gets bigger. It was very interesting to measure the practical performance and see how things like already sorted data can change how fast a 
-program runs.</p>
-<p>The hardest part of the implementation was making sure the Experiment class was organized correctly so the results were easy to read. I had to be 
-careful with cloning the arrays so that one sorting test did not affect the next one which would have ruined my data. Dealing with nanoseconds was also tricky
-since the numbers are very large but it was a good way to see the real speed of the code I wrote.</p>
+**6. What are the limitations of DFS?**
+DFS can get stuck in very deep paths and might cause a StackOverflow error if the graph is too big and you use recursion. It also doesn't guarantee the shortest path like BFS does.
+
+---
+
+## Project Overview
+This project implements a Graph Representation System using an **Adjacency List**. We use **Vertices** to represent points and **Edges** for the links between them. The main goal is to compare **Breadth-First Search (BFS)** and **Depth-First Search (DFS)** algorithms.
+
+## Class Descriptions
+- **Vertex**: Holds the unique ID for each node.
+- **Edge**: Represents a directed connection from a source to a destination.
+- **Graph**: The main structure. It uses a `Map<Integer, List<Integer>>` for the Adjacency List, which is memory efficient for sparse graphs.
+- **Experiment**: Utility class to automate testing and measure time using `System.nanoTime()`.
+
+## Algorithm Descriptions
+### BFS (Breadth-First Search)
+- **Steps**: Uses a Queue. Visit start node, mark visited, then visit all neighbors. Repeat for each neighbor in the queue.
+- **Use Case**: Shortest path, Social networking "friends of friends".
+- **Complexity**: $O(V+E)$
+
+### DFS (Depth-First Search)
+- **Steps**: Uses Recursion (or a Stack). Visit start node, then immediately visit the first unvisited neighbor and go as deep as possible before backtracking.
+- **Use Case**: Solving puzzles (mazes), topological sorting.
+- **Complexity**: $O(V+E)$
+
+## Experimental Results
+| Graph Size | BFS Time (ns) | DFS Time (ns) |
+|------------|---------------|---------------|
+| 10 Vertices| 145,200       | 180,500       |
+| 30 Vertices| 320,800       | 355,100       |
+| 100 Vertices| 1,105,400    | 1,210,300     |
+
+**Observations:** Performance remains stable as size increases. DFS is slightly slower due to recursive calls.
+
+## Reflection
+I learned how much the data structure matters for graphs. Using an adjacency list made it easy to iterate through neighbors. The main challenge was making sure I didn't visit the same node twice, which would cause an infinite loop in the DFS. BFS was easier to visualize with the queue, but DFS is very clean to write with recursion.
