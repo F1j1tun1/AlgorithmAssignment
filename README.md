@@ -5,27 +5,32 @@ Algorithms and Data Structures</h1>
 
 <h2>Analysis Questions</h2>
 <b>1. How does graph size affect BFS and DFS performance?</b>
-As the number of vertices (V) and edges (E) increase, both algorithms take more time. Since they are O(V+E), the time growth is mostly linear relative to the total size of the graph structure.
+As the number of vertices (V) and edges (E) increase, both algorithms take more time. Since they are O(V+E), the time growth is mostly linear relative to the 
+total size of the graph structure.
 
 <b>2. Which traversal is faster in your experiments?</b>
-In my tests, BFS usually finished a bit faster than DFS. I think this is because DFS uses recursion which has some overhead on the system stack, while BFS uses a simple Queue.
+In my tests, BFS usually finished a bit faster than DFS. I think this is because DFS uses recursion which has some overhead on the system stack, while BFS uses a 
+simple Queue.
 
 <b>3. Do results match the expected complexity O(V+E)?</b>
 Yes, when I moved from 10 to 100 vertices, the time didn't explode exponentially. It stayed within a reasonable range that follows the O(V+E) pattern.
 
 <b>4. How does graph structure affect traversal order?</b>
-The order changes alot based on how edges are connected. If the graph is very deep, DFS goes way down one path first. If the graph is wide or flat, BFS visits all immediate neighbors first which looks very different in the output.
+The order changes alot based on how edges are connected. If the graph is very deep, DFS goes way down one path first. If the graph is wide or flat, BFS visits all 
+immediate neighbors first which looks very different in the output.
 
 <b>5. When is BFS preferred over DFS?</b>
 BFS is better when you need to find the shortest path in an unweighted graph. It is also good if you know the target node is close to the starting point.
 
 <b>6. What are the limitations of DFS?</b>
-DFS can get stuck in very deep paths and might cause a StackOverflow error if the graph is too big and you use recursion. It also doesn't guarantee the shortest path like BFS does.
+DFS can get stuck in very deep paths and might cause a StackOverflow error if the graph is too big and you use recursion. It also doesn't guarantee the shortest 
+path like BFS does.
 
----
+<hr>
 
-## Project Overview
-This project implements a Graph Representation System using an **Adjacency List**. We use **Vertices** to represent points and **Edges** for the links between them. The main goal is to compare **Breadth-First Search (BFS)** and **Depth-First Search (DFS)** algorithms.
+<h2>A Project Overview</h2>
+This project implements a Graph Representation System using an **Adjacency List**. We use **Vertices** to represent points and **Edges** for the links between 
+them. The main goal is to compare **Breadth-First Search (BFS)** and **Depth-First Search (DFS)** algorithms.
 
 ## Class Descriptions
 - **Vertex**: Holds the unique ID for each node.
