@@ -27,8 +27,6 @@ DFS can get stuck in very deep paths and might cause a StackOverflow error if th
 path like BFS does.
 
 <hr>
-<hr>
-<hr>
 
 <h2>A Project Overview</h2>
 This project implements a Graph Representation System using an Adjacency List. We use Vertices to represent points and Edges for the links between 
