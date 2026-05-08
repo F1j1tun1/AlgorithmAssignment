@@ -3,6 +3,7 @@ IT-2502 Assignment-4 <br>
 Algorithms and Data Structures</h1>
 
 
+
 <h2>Analysis Questions</h2>
 <b>1. How does graph size affect BFS and DFS performance?</b>
 As the number of vertices (V) and edges (E) increase, both algorithms take more time. Since they are O(V+E), the time growth is mostly linear relative to the 
@@ -51,11 +52,12 @@ Complexity: O(V+E)
 
 <h2>D Experimental Results</h2>
 Observation: <br>
-10 Vertices  | BFS: 145,200       | DFS: 180,500 <br>
-30 Vertices  | BFS: 320,800       | DFS: 355,100 <br>
-100 Vertices | BFS: 1,105,400     | DFS: 1,210,300 <br>
+10 Vertices  | BFS: 716500     | DFS: 14200 <br>
+30 Vertices  | BFS: 24800      | DFS: 6900 <br>
+100 Vertices | BFS: 395700     | DFS: 288500 <br>
 
 <h2>E Screenshots</h2>
+<img width="392" height="172" alt="image" src="https://github.com/user-attachments/assets/b45d0e0d-e11c-402f-9156-3b5788a86643" />
 
 
 <h2>F Reflection</h2>
