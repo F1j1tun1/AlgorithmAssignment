@@ -58,7 +58,7 @@ Observation: <br>
 100 Vertices | BFS: 395700     | DFS: 288500 <br>
 
 <h2>E Screenshots</h2>
-<img width="392" height="172" alt="image" src="https://github.com/user-attachments/assets/b45d0e0d-e11c-402f-9156-3b5788a86643" />
+<img width="376" height="167" alt="image" src="https://github.com/user-attachments/assets/22d07d9a-44e5-4903-8a55-712f26500e39" />
 
 <h2>F Reflection</h2>
 I learned how to represent directed graphs using an adjacency list, which is more memory efficient than a matrix. I observed that DFS was usually faster in my 
