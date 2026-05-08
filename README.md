@@ -27,36 +27,38 @@ DFS can get stuck in very deep paths and might cause a StackOverflow error if th
 path like BFS does.
 
 <hr>
+<hr>
+<hr>
 
 <h2>A Project Overview</h2>
 This project implements a Graph Representation System using an Adjacency List. We use Vertices to represent points and Edges for the links between 
 them. The main goal is to compare Breadth-First Search (BFS) and Depth-First Search (DFS) algorithms.
 
 <h2>B Class Descriptions</h2>
-- Vertex: Holds the unique ID for each node.
-- Edge: Represents a directed connection from a source to a destination.
-- Graph: The main structure. It uses a `Map<Integer, List<Integer>>` for the Adjacency List, which is memory efficient for sparse graphs.
-- Experiment: Utility class to automate testing and measure time using System.nanoTime().
+Vertex: Holds the unique ID for each node.
+Edge: Represents a directed connection from a source to a destination.
+Graph: The main structure. It uses a <b>Map<Integer, List<Integer>></b> for the Adjacency List, which is memory efficient for sparse graphs.
+Experiment: Utility class to automate testing and measure time using System.nanoTime().
 
 <h2>C Algorithm Descriptions</h2>
 <b>BFS (Breadth-First Search)</b>
-- Steps: Uses a Queue. Visit start node, mark visited, then visit all neighbors. Repeat for each neighbor in the queue.
-- Use Case: Shortest path, Social networking "friends of friends".
-- Complexity: O(V+E)
+Steps: Uses a Queue. Visit start node, mark visited, then visit all neighbors. Repeat for each neighbor in the queue.
+Use Case: Shortest path, Social networking "friends of friends".
+Complexity: O(V+E)
 
 <b>DFS (Depth-First Search)</b>
-- Steps: Uses Recursion. Visit start node, then immediately visit the first unvisited neighbor and go as deep as possible before backtracking.
-- Use Case: Solving puzzles, topological sorting.
-- Complexity: O(V+E)
+Steps: Uses Recursion. Visit start node, then immediately visit the first unvisited neighbor and go as deep as possible before backtracking.
+Use Case: Solving puzzles, topological sorting.
+Complexity: O(V+E)
 
 <h2>D Experimental Results</h2>
-| Graph Size | BFS Time (ns) | DFS Time (ns) |
-|------------|---------------|---------------|
-| 10 Vertices| 145,200       | 180,500       |
-| 30 Vertices| 320,800       | 355,100       |
-| 100 Vertices| 1,105,400    | 1,210,300     |
+Observation:
+10 Vertices  | BFS: 145,200       | DFS: 180,500
+30 Vertices  | BFS: 320,800       | DFS: 355,100
+100 Vertices | BFS: 1,105,400     | DFS: 1,210,300
 
-**Observations:** Performance remains stable as size increases. DFS is slightly slower due to recursive calls.
+<h2>E Screenshots</h2>
+
 
 <h2>F Reflection</h2>
 I learned how much the data structure matters for graphs. Using an adjacency list made it easy to iterate through neighbors. The main challenge was making sure I 
