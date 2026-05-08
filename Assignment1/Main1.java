@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Defence {
+public class Main1 {
     public static void function(Scanner sc, int n) {
         if (n <= 0) {
             return;

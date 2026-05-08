@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Experiment {
+public class Experiment1 {
     private Sorter srt = new Sorter();
     private Searcher srch = new Searcher();
 
