@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Graph {
-    private Map<Integer, List<Integer>> adjList; // Adjacency List representation [cite: 36]
+    private Map<Integer, List<Integer>> adjList;
 
     public Graph() {
         this.adjList = new HashMap<>();
