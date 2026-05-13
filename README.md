@@ -11,8 +11,7 @@ As the number of vertices and edges increase, both algorithms take more time. Si
 total size of the graph structure.
 
 <b>2. Which traversal is faster in your experiments?</b>
-In my tests, BFS usually finished a bit faster than DFS. I think this is because DFS uses recursion which has some overhead on the system stack, while BFS uses a 
-simple Queue.
+DFS usually finished a bit faster than BFS. I think this is because DFS uses recursion, while BFS uses a simple Queue.
 
 <b>3. Do results match the expected complexity O(V+E)?</b>
 Yes, when I moved from 10 to 100 vertices, the time didn't explode exponentially. It stayed within a reasonable range that follows the O(V+E) pattern.
